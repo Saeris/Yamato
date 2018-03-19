@@ -1,0 +1,13 @@
+{
+  "require": [
+    "babel-register"
+  ],
+  "cache": true,
+  "sourceMap": false,
+  "instrument": false,
+  "exclude": [
+    "src/**/__TEST__/*.spec.js",
+    "build",
+    "dist"
+  ]
+}
